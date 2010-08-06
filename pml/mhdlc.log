@@ -1,0 +1,25 @@
+MetaHDL version 1.0.0
+Copyright (C), MENG Xin, mengxin@vlsi.zju.edu.cn
+
+==============================
+ Summary of working settings
+==============================
+output_line_directive: 1
+output_ifdef_directive: 0
+DebugMHDLLexer: 0
+DebugMHDLParser: 0
+DebugSVLexer: 0
+DebugSVParser: 0
+Workdir: /home/xin_meng/src/exar_ip/tool/mperf/pml/workdir
+
+
+===============================================
+ 1 search paths specified with -I/-P option 
+===============================================
+/home/xin_meng/src/exar_ip/tool/mperf/pml
+
+===================================
+ 1 files processed
+===================================
+/home/xin_meng/src/exar_ip/tool/mperf/pml/test.pml
+

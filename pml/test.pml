@@ -1,0 +1,24 @@
+forward_channel PCIE_Egress_ch;
+
+simple_th hello {
+        (kk, bb, cc) -> bb {
+                8 GBps, 8;
+                transform a, b, c;
+        }
+        
+        (kk, bb, cc) -> bb {
+                16 GBps, 8;
+                transform a, b, c;
+                pipeline 100;
+                packet_delay random(9-19, 2) ns;
+                beat_delay [0-90, 23/4] ns;
+        }
+}
+
+
+round_robin_th DD {
+  th_1 ;
+
+  th_2 89;
+}
+ 
