@@ -1,0 +1,1 @@
+Using C++ and SystemC library to create SoC analytical performance model. Using simulation to estimate SoC performance.
